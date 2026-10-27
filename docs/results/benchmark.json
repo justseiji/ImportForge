@@ -1,0 +1,21 @@
+{
+  "measuredAt": "2026-10-27T14:46:46.886Z",
+  "node": "v24.14.0",
+  "platform": "win32",
+  "cpu": "AMD Ryzen 5 3400G with Radeon Vega Graphics    ",
+  "logicalCpus": 8,
+  "systemMemoryGiB": 16,
+  "records": 10000,
+  "bytes": 288904,
+  "parseMs": 77,
+  "reconcileMs": 103,
+  "heapUsedMiB": 35,
+  "counts": {
+    "create": 10000,
+    "update": 0,
+    "unchanged": 0,
+    "blocked": 0,
+    "excluded": 0
+  },
+  "scope": "Single in-process parse + reconciliation. Excludes database, storage, network and commit. Not a production throughput claim."
+}

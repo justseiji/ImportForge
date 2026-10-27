@@ -1,0 +1,285 @@
+/* Readable working density and AA text contrast on the warm surfaces. */
+.diff summary {
+  color: #3f5caf;
+}
+.back-link,
+.diff-line strong {
+  color: #526849;
+}
+.receipt-counts span,
+.confirm-counts span,
+.mapping-version > span,
+.mapping-version small,
+.dropzone small {
+  color: #626e5d;
+}
+.stats-strip .stats-caption strong {
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0;
+  margin-top: 0;
+  font-weight: 500;
+}
+.source-details {
+  font-size: 11px;
+  color: #526e40;
+  white-space: normal;
+  max-width: 300px;
+}
+.source-details summary {
+  cursor: pointer;
+}
+.source-details dl {
+  margin: 10px 0 0;
+}
+.source-details dl > div {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 10px;
+  margin: 6px 0;
+}
+.source-details dt {
+  font-weight: 600;
+}
+.source-details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+:root {
+  --muted: #626e5d;
+}
+p,
+small,
+.subtle,
+.quiet-note,
+.revision-label,
+.pagination,
+.field small,
+.file-cell small,
+.product-cell > span,
+.product-cell code,
+.sample-values code,
+.receipt-total,
+.receipt-meta dt,
+.receipt-meta dd,
+.supplier-card > p,
+.supplier-metrics span,
+.history-event small,
+.detail-list dt,
+.allowed-values,
+.allowed-values strong,
+.ai-disclosure,
+.engine-label,
+.login-demo p,
+.login-demo strong,
+.eyebrow,
+.section-heading > .subtle,
+.form-footer,
+.stats-strip div span:not(.stat-icon),
+.stats-strip > .stats-caption,
+.stats-caption strong,
+.example-callout p,
+.workflow-note,
+.workflow-note strong,
+.review-summary span,
+.topbar,
+.topbar strong,
+.app-footer,
+.steps > div,
+.workspace-tabs button,
+.count,
+.column-index {
+  color: #626e5d;
+}
+.page-heading p,
+.section-heading p,
+.field small,
+.quiet-note,
+.file-cell small,
+.product-cell > span,
+.product-cell code,
+.sample-values code,
+.subtle,
+.ai-disclosure,
+.allowed-values,
+.revision-label,
+.review-summary span,
+.supplier-metrics span,
+.login-demo p,
+.example-callout p,
+.workflow-note,
+.form-footer,
+.pagination,
+.receipt-total,
+.receipt-meta,
+.receipt-meta dd,
+.topbar,
+.stats-strip div span:not(.stat-icon) {
+  font-size: 12px;
+}
+.button,
+.text-button,
+.text-link,
+.toolbar select,
+.search input,
+.field label,
+.mapping-table select,
+.file-cell strong,
+.product-cell strong,
+.workspace-tabs button,
+.sidebar nav a {
+  font-size: 12px;
+}
+table {
+  font-size: 12px;
+}
+th {
+  font-size: 10px;
+  color: #626e5d;
+}
+td {
+  color: #4e5e46;
+}
+.badge {
+  font-size: 11px;
+}
+.badge.completed,
+.badge.create {
+  color: #426831;
+}
+.badge.mapping,
+.badge.failed {
+  color: #825423;
+}
+.badge.review,
+.badge.update {
+  color: #3f5b9d;
+}
+.badge.unchanged,
+.badge.excluded {
+  color: #58634f;
+}
+.badge.blocked {
+  color: #a03c3c;
+}
+.stats-strip strong {
+  font-size: 27px;
+}
+.section-heading h2 {
+  font-size: 16px;
+}
+.eyebrow {
+  font-size: 10px;
+}
+.login-form .eyebrow {
+  color: #626e5d;
+}
+.login-story .eyebrow {
+  color: #adc69c;
+}
+.login-story p,
+.login-foot {
+  color: #afc5a8;
+}
+.sidebar .nav-label {
+  color: #a6b99e;
+}
+.sidebar-user small {
+  color: #afc2a9;
+}
+.sidebar-note p {
+  color: #a5ba9d;
+}
+.workspace-selector small {
+  color: #acbea4;
+}
+.sidebar nav a {
+  color: #bfd0b9;
+}
+.sidebar nav a.active {
+  color: #20382c;
+}
+.sidebar .sidebar-note strong {
+  color: #bfd0b9;
+}
+.diff-line del,
+.history-change del {
+  color: #935e4c;
+}
+.diff-line ins,
+.history-change ins {
+  color: #4c742f;
+}
+.issues-list {
+  color: #984e39;
+}
+.history-change,
+.history-event small {
+  color: #62774e;
+}
+.suggestion-panel p,
+.suggestion-panel small {
+  color: #586e96;
+}
+.upload-help > .text-link {
+  font-size: 12px;
+}
+.dropzone > span:not(.upload-icon) {
+  color: #626e5d;
+}
+.engine-label {
+  letter-spacing: 0.5px;
+}
+.steps > .done {
+  color: #507738;
+}
+.review-summary .create {
+  color: #4c7834;
+}
+.review-summary .blocked {
+  color: #9b4936;
+}
+.supplier-metrics strong {
+  color: #526e40;
+}
+.example-callout strong {
+  color: #4e663c;
+}
+@media (max-width: 600px) {
+  .topbar {
+    font-size: 10px;
+  }
+  .sidebar nav a {
+    font-size: 11px;
+  }
+  .page-heading p,
+  .section-heading p,
+  .field small,
+  .quiet-note,
+  .subtle,
+  .ai-disclosure,
+  .allowed-values,
+  .revision-label,
+  .review-summary span,
+  .supplier-metrics span,
+  .form-footer,
+  .pagination,
+  .receipt-total {
+    font-size: 11px;
+  }
+  .steps > div {
+    font-size: 9px;
+  }
+  .workspace-tabs button {
+    font-size: 11px;
+  }
+  .app-footer {
+    font-size: 9px;
+  }
+  .stats-strip div span:not(.stat-icon) {
+    font-size: 10px;
+  }
+  .stats-strip strong {
+    font-size: 24px;
+  }
+}

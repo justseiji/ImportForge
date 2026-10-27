@@ -1,0 +1,14 @@
+generator client {
+  provider = "prisma-client-js"
+}
+datasource db {
+  provider = "postgresql"
+}
+// SQL migrations own the schema. Parameterized Prisma raw queries keep local
+// PGlite and production PostgreSQL on the same explicit transaction contract.
+model Workspace {
+  id String @id
+  name String
+  allowed Json
+  @@map("workspaces")
+}

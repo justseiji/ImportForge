@@ -1,0 +1,6 @@
+{
+  "name": "@importforge/import-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./src/index.ts"
+}

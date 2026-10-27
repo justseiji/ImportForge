@@ -1,0 +1,84 @@
+{
+  "mode": "deterministic (not live AI)",
+  "fixtures": 4,
+  "correct": 11,
+  "expected": 15,
+  "predicted": 11,
+  "precision": 1,
+  "recall": 0.7333333333333333,
+  "results": [
+    {
+      "headers": [
+        "Supplier Code",
+        "Item Description",
+        "Cost",
+        "Group",
+        "UOM"
+      ],
+      "expected": {
+        "Supplier Code": "sku",
+        "Item Description": "name",
+        "Cost": "price",
+        "Group": "category",
+        "UOM": "unit"
+      },
+      "actual": {
+        "Supplier Code": "sku",
+        "Item Description": "name",
+        "Cost": "price",
+        "Group": "category",
+        "UOM": "unit"
+      }
+    },
+    {
+      "headers": [
+        "SKU",
+        "Product name",
+        "Unit price",
+        "Category",
+        "Currency",
+        "Unit"
+      ],
+      "expected": {
+        "SKU": "sku",
+        "Product name": "name",
+        "Unit price": "price",
+        "Category": "category",
+        "Currency": "currency",
+        "Unit": "unit"
+      },
+      "actual": {
+        "SKU": "sku",
+        "Product name": "name",
+        "Unit price": "price",
+        "Category": "category",
+        "Currency": "currency",
+        "Unit": "unit"
+      }
+    },
+    {
+      "headers": [
+        "Material Ref",
+        "Label",
+        "Net Amount",
+        "Measure"
+      ],
+      "expected": {
+        "Material Ref": "sku",
+        "Label": "name",
+        "Net Amount": "price",
+        "Measure": "unit"
+      },
+      "actual": {}
+    },
+    {
+      "headers": [
+        "Mystery",
+        "Notes from vendor"
+      ],
+      "expected": {},
+      "actual": {}
+    }
+  ],
+  "limitations": "Small hand-labeled English header set; no calibration, no live-provider measurement, no category inference. Unknown headers intentionally require manual mapping."
+}

@@ -1,0 +1,7 @@
+# Frontend organization
+
+`apps/web/src/features/{imports,catalog,suppliers,workspace}` own screens. `components/ui` owns accessible buttons, badges, empty states, table frame and dialogs. `lib/api` owns fetch/error handling, query keys and upload progress. Router owns path and shareable search/filter/page. TanStack Query owns sessions and server resources; local component state owns current tabs, dialogs and pending edits. React Hook Form + Zod validate structured login/new supplier forms. Mapping form retains local draft until explicit Save and validate; no hidden autosave. Expected revision detects conflicting tabs.
+
+Import detail composes step navigation, header, mapping editor, transformation controls, validation/review grid and receipt. Source and target values are visually separated. Tables use TanStack Table for rendering and server pagination. At 25 rows virtualization is unnecessary. Preparation mutations invalidate detail and rows; commit also invalidates catalog and import lists. Errors near actions use `role=alert`; load status uses `aria-live=polite`. Buttons disable while mutation is outstanding, but server idempotency remains authoritative.
+
+Shared contracts never import database or provider code. Engine is usable in Node tests without Fastify. API receives strings for all money and SKU values. Download links are authenticated same-origin endpoints. Web proxy in development and reverse proxy in production avoid cross-origin cookie complexity.
