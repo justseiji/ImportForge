@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/Made%20with-Codex-black)
 # ImportForge
 
 A focused supplier catalog import application. React + Fastify + PostgreSQL, with durable preparation jobs, deterministic transformations, reviewable diffs, atomic commits and source-level audit history.
